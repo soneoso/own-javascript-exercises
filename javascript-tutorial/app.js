@@ -119,3 +119,22 @@ console.log(fruit.slice(2,6));
 console.log(fruit.replace('ban', '123'));
 
 
+// array
+
+let fruits = ['banana', 'apple', 'orange', 'pineapple'];
+
+console.log(fruits[2]);
+
+fruits[0] = 'pear';
+console.log(fruits);
+
+for (let i = 0; i <fruit.length; i++) {
+    console.log(fruits[i]);
+}
+
+// array common methods
+
+console.log('to string',fruits.toString());
+console.log(fruits.join(' - '));
+
+
