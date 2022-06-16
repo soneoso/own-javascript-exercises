@@ -104,4 +104,18 @@ let yourAge = 18; // numbers
 let yourName = 'bob'; // string
 let name = {first: 'jane', last: 'doe'}; // object
 
+let thruth = false; // boolean
+let groceries = ['apple', 'orange', 'banana']; // array
+let random; // undefined
+let nothing = null; // value of null
+
+// strings in javascript (common methods)
+let fruit = 'banana'; // string
+let moreFruite = 'banana/apple'; // string
+
+console.log(fruit.length);
+console.log(fruit.indexOf('nan'));
+console.log(fruit.slice(2,6));
+console.log(fruit.replace('ban', '123'));
+
 
