@@ -16,3 +16,8 @@ for (let i = 0; i < movies.length; i++) {
   document.write(`<li>${movies[i]}</li>`);
 }
 document.write(`</ol>`);
+
+/* The variable movies will be exicuted in the for loop in a
+orderd list. This will be pushed into a list where the constant movies
+will display the array because of the index in the movies string.
+ */

@@ -16,6 +16,8 @@ const tvshows = [
   `the oa`,
 ];
 
+// Good code
+
 tvshows.reverse();
 
 document.write(`<ol>`);
@@ -23,3 +25,11 @@ for (let i = 0; i < tvshows.length; i++) {
   document.write(`<li>${tvshows[i]}</li>`);
 }
 document.write(`</ol>`);
+
+// Bad code
+
+// document.write(`<ol>`);
+// for (let i = 0; i < movies.length; i++) {
+//   document.write(`<li>${movies[i]}</li>`);
+// }
+// document.write(`</ol>`);
