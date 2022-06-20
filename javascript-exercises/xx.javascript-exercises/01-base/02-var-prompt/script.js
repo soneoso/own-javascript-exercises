@@ -3,6 +3,11 @@
 
 (function() {
 
-    // your code here
+    let nickname = prompt ("Please enter your name");
 
+    if (nickname != null) {
+        window.alert ('Hello, ' + nickname + '!');
+    }
+    
+    
 })();
