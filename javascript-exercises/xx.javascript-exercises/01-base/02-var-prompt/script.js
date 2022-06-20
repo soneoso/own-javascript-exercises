@@ -9,5 +9,4 @@
         window.alert ('Hello, ' + nickname + '!');
     }
     
-    
 })();

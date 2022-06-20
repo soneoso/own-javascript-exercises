@@ -3,6 +3,16 @@
 
 (function() {
 
-  // your code here
+  let question = prompt ('Do you want some cake?');
+
+  if (question === 'yes') {
+    alert('Great have some cake!');
+    
+  }
+  else { 
+    alert ('More cake for me then!'); 
+}
+
+  
 
 })();
